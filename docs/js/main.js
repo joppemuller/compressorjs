@@ -122,7 +122,7 @@ window.addEventListener('DOMContentLoaded', function () {
         blob.name = 'picture.jpg';
         vm.compress(blob);
       };
-      xhr.open('GET', 'images/picture.jpg');
+      xhr.open('GET', 'https://uploads-ssl.webflow.com/64aabbfb4f094472de6a3236/64c3bf43a7de06c73306c6e4_marek-piwnicki-4dosK3Ujmd4-unsplash%20(1).jpg');
       xhr.responseType = 'blob';
       xhr.send();
     },
